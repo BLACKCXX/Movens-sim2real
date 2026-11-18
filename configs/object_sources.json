@@ -1,0 +1,12 @@
+[
+  {
+    "object": "apple",
+    "aliases": ["raw apple", "apple with skin", "苹果", "fruit"],
+    "mass_kg": [0.149, 0.182, 0.223],
+    "diameter_m": [0.06985, 0.0762, 0.08255],
+    "material": "raw fruit with skin",
+    "source": "https://api.nal.usda.gov/fdc/v1/food/171688",
+    "source_detail": "USDA SR Legacy 171688, published 4/1/2019, portion IDs 89194, 89193, 89192. Portion sizes are reference examples, not bounds measured for the observed object.",
+    "confidence": 0.35
+  }
+]

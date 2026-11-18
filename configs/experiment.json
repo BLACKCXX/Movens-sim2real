@@ -1,0 +1,31 @@
+{
+  "interact": "../Movens-Interact",
+  "teacher": "../Movens-Interact/data/appletoplate_tableup005mm_training_v1",
+  "replay": "../Movens-Interact/outputs/appletoplate_tableup005mm_20261105T020624Z",
+  "sonic": "../chenxiaoxuan/movens_zero_showcase/data/upstream/motion",
+  "sonic_xml": "../chenxiaoxuan/movens_zero_showcase/upstream/runtime_bundle/GR00T-WholeBodyControl/gear_sonic/data/robot_model/model_data/g1/scene_43dof.xml",
+  "sonic_alternate_xml": "../chenxiaoxuan/movens_zero_showcase/upstream/runtime_bundle/GR00T-WholeBodyControl/gear_sonic/data/robot_model/model_data/g1/scene_43dof.xml",
+  "checkpoint": "../Movens-Interact/outputs/apple_mixed_b64_80k_20261111T151837Z/b64_dwa/formal_continuation/checkpoint_last.pt",
+  "baseline_eval": "../Movens-Interact/eval/dwa_test_b64_final80000_20261112T153644Z",
+  "task": "Move the apple to the plate.",
+  "physics_dt": 0.00025,
+  "control_dt": 0.02,
+  "history": 25,
+  "seed": 42,
+  "phase": {
+    "near_diameters": 0.5,
+    "near_seconds": 0.06,
+    "closure_rad_per_second": 0.15,
+    "lift_m": 0.02,
+    "lift_diameters": 0.25,
+    "hold_rel_speed_m_s": 0.05,
+    "hold_seconds": 0.2,
+    "goal_extra_margin_m": 0.03,
+    "goal_seconds": 0.1,
+    "transport_m": 0.02,
+    "slip_m": 0.02,
+    "slip_seconds": 0.08,
+    "stable_seconds": 1.0
+  },
+  "residual_scale_fraction": 0.1
+}
