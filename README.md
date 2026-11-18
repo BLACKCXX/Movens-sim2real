@@ -1,5 +1,7 @@
 # Movens-sim2real
 
+公开仓库：[BLACKCXX/Movens-sim2real](https://github.com/BLACKCXX/Movens-sim2real)，默认分支为 `main`。
+
 本项目实现 v3 的真实回放标注、两个小模型预训练、冻结 Movens 的 MuJoCo 闭环，以及成功轨迹回训和部署适配。实际完成状态和恢复入口见 `PROGRESS.md`，接口与运行命令见 `PROJECT_PLAN.md`。在服务器本项目根目录工作，复用相邻 Movens-Interact 的 Python 环境和只读资产。原始数据、运行日志与权重不提交到仓库。
 
 | 文件 | 用途 | 后续维护 |
